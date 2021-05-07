@@ -62,9 +62,9 @@ p {
 
 .main-block {
     position: absolute;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     top: 300px;
     z-index: 1;
     display: flex;
@@ -90,28 +90,51 @@ p {
 .main-block-header {
     text-align: center;
 }
-.main-block-header h2, p {
-    margin-top: 15px;
+.main-block-header h2 {
+    margin-top: 30px;
     margin-bottom: 15px;
 }
 .main-block-header-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .back-button {
-    background-color: #147b74;
+    background-color: #3cb4ac;
     color: white;
-    height: 40px;
-    width: 160px;
-    border-radius: 20px;
+    height: 56px;
+    width: 200px;
+    border-radius: 30px;
     border-style: none;
     font-family: 'Commissioner', sans-serif;
     font-weight: 700;
 }
 .back-button:hover {
     cursor: pointer;
-    background-color: #3cb4ac;
+    background-color: #147b74;
+}
+.bookmark-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 56px;
+    width: 180px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    color: #7a7a7a;
+}
+.bookmark-button:hover {
+    cursor: pointer;
+}
+
+.bookmark-button svg {
+    margin-right: 20px;
+}
+.bookmark-button svg circle:hover {
+    fill: #7a7a7a;
 }
 
 /* Breakpoints*/
